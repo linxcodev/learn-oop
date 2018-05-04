@@ -71,5 +71,13 @@ class kendaraan {
   {
     return $this->harga;
   }
+
+  // create construct for simple set values
+  function __construct($merek, $harga, $thnPmb)
+  {
+    $this->merek = $merek;
+    $this->harga = $harga;
+    $this->tahunPembuatan = $thnPmb;
+  }
 }
 ?>
