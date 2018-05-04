@@ -2,12 +2,13 @@
 // create class
 class kendaraan {
   // properties on the class is a definition of the class
-  var $warna;             // variable in class called properties
-  var $harga;             // var is same with public
-  var $merek;
+  // variable in class called properties
+  var $warna;             // var is same with public
+  public $merek;
+  private $harga;         // the private is name of encapsulation, only can called class it self
   var $jumlah_roda;       // propertie with method write snake_case
   var $bahanBakar;        // propertie with method write camelCase
-  var $tahunPembuatan;
+  protected $tahunPembuatan;            // the protected is name of encapsulation, only can called if inherit
 
   // function in class for working this class and as working the properties
   // function in class, call method

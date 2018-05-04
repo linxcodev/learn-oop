@@ -25,6 +25,9 @@ include 'kendaraan.php';
 
 // calling properties with parameter in __construct
 $kendaraan1 = new kendaraan('suprak', 15000000, 2005);
+
+// if you use encapsulation private or protected in properties, cannot call use properties
+// can call, if u use method(nb: method not use encapsulation)
 echo ' Merek ' . $kendaraan1->bacaMerek() . ' dengan harga ' .
 $kendaraan1->bacaHarga() . ' dengan harga second ' . $kendaraan1->hargaSecond();
 ?>
