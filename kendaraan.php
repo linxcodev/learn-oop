@@ -75,6 +75,7 @@ class kendaraan {
   // create construct for simple set values
   function __construct($merek, $harga, $thnPmb)
   {
+    // set value properties use parameter
     $this->merek = $merek;
     $this->harga = $harga;
     $this->tahunPembuatan = $thnPmb;
